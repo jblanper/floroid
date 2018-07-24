@@ -16,7 +16,7 @@ export default class Sketch {
 
     init (options) {
         // options
-        this.jsonOptions = JSON.stringify(options);
+        this.jsonOptions = JSON.stringify(options, null, 2);
 
         this.backgroundColor = options.sketch.backgroundColor;
         this.drawComponents = options.sketch.drawComponents;
@@ -80,7 +80,7 @@ export default class Sketch {
     }
 
     get json () {
-        return `data:application/json,${encodeURIComponent(this.jsonOptions)}`;
+        return this.jsonOptions;
     }
 
     get png () {
