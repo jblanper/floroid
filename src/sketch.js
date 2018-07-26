@@ -51,11 +51,11 @@ export default class Sketch {
 
         this.description = new Description(
             'Floroid', [
-            `a crazy reinterpretation of the spirograph toy.`,
-            `press "play" to begin the animation. every "gear" that moves \
+            `A crazy reinterpretation of the spirograph toy.`,
+            `Press "play" to begin the animation. every "gear" that moves \
             the pen can be turned off.`,
-            `there is always a random design with each page refresh. \
-            the parameters of a specific design can be downloaded and \
+            `There is always a random design with each page refresh. \
+            The parameters of a specific design can be downloaded and \
             later uploaded to the page. Enjoy!`
         ]);
 
