@@ -53,12 +53,12 @@ canvas {
 
 #ui #description {
     font-size: 110%;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 #ui #description h1 {
     font-size: 160%;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 #ui button, #ui .file-btn, #ui #close {
@@ -83,7 +83,7 @@ canvas {
   width: auto;
   margin-top: 10px;
   margin-bottom: 30px;
-  font-weight: 100;
+  font-weight: 400;
   color: rgb(152, 54, 38);
   background-color: #fff;
   border: none;
