@@ -80,6 +80,8 @@ export default class Sketch {
         this.getImgBtn = new DownloadButton({
             text: 'get IMG', scope: this, prop: 'png' 
         });
+
+        this.menu.addSignature();
     }
 
     get json () {
