@@ -47,7 +47,10 @@ export default class Sketch {
     }
 
     setBindings () {
-        this.menu = new Menu({scope: this, shouldUpdate: false});
+        this.menu = new Menu({
+            scope: this, shouldUpdate: false,
+            githubUrl: '//github.com/jblanper/floroid'
+        });
 
         this.description = new Description(
             'Floroid', [
