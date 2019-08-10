@@ -86,7 +86,7 @@ export default class Menu {
             this.svg.appendChild(rect3);
 
             document.body.appendChild(this.svg);
-            this.menu.classList.add('moverIzq');
+            //this.menu.classList.add('moverIzq');
 
             // close Btn
             this.closeBtn = Object.assign(
